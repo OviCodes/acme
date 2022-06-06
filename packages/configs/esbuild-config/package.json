@@ -1,0 +1,17 @@
+{
+  "name": "@acme/esbuild-config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "files": [
+    "react-library.js",
+    "node.js"
+  ],
+  "dependencies": {
+    "esbuild-css-modules-plugin": "^2.2.16",
+    "esbuild-node-externals": "^1.4.1"
+  },
+  "peerDependencies": {
+    "esbuild": "^0.14.42"
+  }
+}

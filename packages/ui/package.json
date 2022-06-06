@@ -1,11 +1,21 @@
 {
   "name": "@acme/ui",
   "version": "1.0.0",
-  "main": "./dist/index.ts",
+  "main": "./dist/index.cjs.js",
+  "module": "./dist/index.js",
   "types": "./dist/index.ts",
   "license": "MIT",
+  "scripts": {
+    "dev": "yarn clean && node ./scripts/watch.js",
+    "build": "yarn clean && node ./scripts/build.js && yarn ts-types",
+    "clean": "yarn rimraf dist",
+    "ts-types": " tsc --emitDeclarationOnly --outDir dist",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
   "devDependencies": {
     "@acme/babel-preset-acme": "1.0.0",
+    "@acme/esbuild-config": "1.0.0",
     "@acme/eslint-config-acme": "1.0.0",
     "@acme/jest-preset": "1.0.0",
     "@acme/prettier-config": "1.0.0",
@@ -26,6 +36,7 @@
     "@types/react": "^18.0.9",
     "@types/react-dom": "^18.0.5",
     "babel-loader": "^8.2.5",
+    "esbuild": "^0.14.42",
     "eslint": "^8.16.0",
     "eslint-plugin-storybook": "^0.5.12",
     "jest": "^28.1.0",
@@ -33,6 +44,7 @@
     "prettier": "^2.6.2",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "rimraf": "^3.0.2",
     "typescript": "^4.7.2"
   },
   "peerDependencies": {
@@ -42,9 +54,5 @@
   "files": [
     "dist/**/*"
   ],
-  "dependencies": {},
-  "scripts": {
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
-  }
+  "dependencies": {}
 }
