@@ -2,5 +2,11 @@
   "name": "@acme/ui",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@acme/eslint-config-acme": "1.0.0",
+    "@acme/prettier-config": "1.0.0",
+    "eslint": "^8.16.0",
+    "prettier": "^2.6.2"
+  }
 }

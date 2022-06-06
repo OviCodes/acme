@@ -2,6 +2,11 @@
   "name": "@acme/corporate-events",
   "version": "1.0.0",
   "private": true,
+  "devDependencies": {
+    "@acme/eslint-config-acme": "1.0.0",
+    "@acme/prettier-config": "1.0.0",
+    "@craco/craco": "^6.4.3"
+  },
   "dependencies": {
     "@acme/ui": "1.0.0",
     "@testing-library/jest-dom": "^5.16.4",
@@ -40,8 +45,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@craco/craco": "^6.4.3"
   }
 }
