@@ -1,0 +1,13 @@
+{
+  "name": "@acme/tsconfig",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "files": [
+    "base.json",
+    "create-react-app.json",
+    "nextjs.json",
+    "node.json",
+    "react-library.json"
+  ]
+}

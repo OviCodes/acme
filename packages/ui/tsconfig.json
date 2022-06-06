@@ -1,0 +1,8 @@
+{
+  "extends": "@acme/tsconfig/react-library.json",
+  "compilerOptions": {
+    "outDir": "dist"
+  },
+  "include": ["src", "custom.d.ts"],
+  "exclude": ["node_modules", "dist", "src/**/*.test.tsx", "src/**/*.stories.tsx"]
+}

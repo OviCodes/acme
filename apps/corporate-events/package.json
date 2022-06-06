@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "devDependencies": {
+    "@acme/tsconfig": "1.0.0",
     "@acme/eslint-config-acme": "1.0.0",
     "@acme/prettier-config": "1.0.0",
     "@craco/craco": "^6.4.3"
