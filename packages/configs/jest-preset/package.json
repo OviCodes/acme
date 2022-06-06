@@ -1,0 +1,17 @@
+{
+  "name": "@acme/jest-preset",
+  "version": "1.0.0",
+  "main": "jest-preset.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "@types/jest": "^27.5.1",
+    "jest": "^28.1.0",
+    "jest-environment-jsdom": "^28.1.0"
+  },
+  "dependencies": {
+    "@acme/babel-preset-acme": "1.0.0",
+    "@babel/core": "^7.18.2",
+    "babel-jest": "^28.1.0",
+    "identity-obj-proxy": "^3.0.0"
+  }
+}

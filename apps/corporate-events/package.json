@@ -6,6 +6,8 @@
     "@acme/tsconfig": "1.0.0",
     "@acme/eslint-config-acme": "1.0.0",
     "@acme/prettier-config": "1.0.0",
+    "@acme/jest-preset": "1.0.0",
+    "jest-environment-jsdom": "^28.1.0",
     "@craco/craco": "^6.4.3"
   },
   "dependencies": {
