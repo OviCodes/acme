@@ -1,0 +1,12 @@
+{
+  "name": "@acme/corporate-events-e2e",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "cypress": "^10.0.2"
+  },
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  }
+}
