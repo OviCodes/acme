@@ -1,12 +1,12 @@
 {
   "name": "@acme/events-admin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "devDependencies": {
-    "@acme/eslint-config-acme": "1.0.0",
-    "@acme/prettier-config": "1.0.0",
-    "@acme/tsconfig": "1.0.0",
-    "@acme/jest-preset": "1.0.0",
+    "@acme/eslint-config-acme": "^1.0.1",
+    "@acme/jest-preset": "^1.0.1",
+    "@acme/prettier-config": "^1.0.1",
+    "@acme/tsconfig": "^1.0.1",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
     "@testing-library/user-event": "^14.2.0",
@@ -15,18 +15,18 @@
     "@types/react-dom": "18.0.5",
     "eslint": "8.17.0",
     "eslint-config-next": "12.1.6",
-    "prettier": "^2.6.2",
-    "typescript": "4.7.3",
     "jest": "^28.1.0",
-    "jest-environment-jsdom": "^28.1.0"
+    "jest-environment-jsdom": "^28.1.0",
+    "prettier": "^2.6.2",
+    "typescript": "4.7.3"
   },
   "dependencies": {
-    "@acme/ui": "1.0.0",
+    "@acme/ui": "^1.0.1",
     "next": "12.1.6",
-    "react": "18.1.0",
-    "react-dom": "18.1.0",
     "next-images": "^1.8.4",
-    "next-transpile-modules": "^9.0.0"
+    "next-transpile-modules": "^9.0.0",
+    "react": "18.1.0",
+    "react-dom": "18.1.0"
   },
   "scripts": {
     "dev": "next dev",
