@@ -1,17 +1,17 @@
 {
   "name": "@acme/corporate-events",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": true,
   "devDependencies": {
-    "@acme/eslint-config-acme": "^1.0.1",
-    "@acme/jest-preset": "^1.0.1",
-    "@acme/prettier-config": "^1.0.1",
-    "@acme/tsconfig": "^1.0.1",
+    "@acme/eslint-config-acme": "^1.0.2",
+    "@acme/jest-preset": "^1.0.2",
+    "@acme/prettier-config": "^1.0.2",
+    "@acme/tsconfig": "^1.0.2",
     "@craco/craco": "^6.4.3",
     "jest-environment-jsdom": "^28.1.0"
   },
   "dependencies": {
-    "@acme/ui": "^1.0.1",
+    "@acme/ui": "^1.0.2",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",

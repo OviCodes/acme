@@ -1,12 +1,12 @@
 {
   "name": "@acme/events-admin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": true,
   "devDependencies": {
-    "@acme/eslint-config-acme": "^1.0.1",
-    "@acme/jest-preset": "^1.0.1",
-    "@acme/prettier-config": "^1.0.1",
-    "@acme/tsconfig": "^1.0.1",
+    "@acme/eslint-config-acme": "^1.0.2",
+    "@acme/jest-preset": "^1.0.2",
+    "@acme/prettier-config": "^1.0.2",
+    "@acme/tsconfig": "^1.0.2",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
     "@testing-library/user-event": "^14.2.0",
@@ -21,7 +21,7 @@
     "typescript": "4.7.3"
   },
   "dependencies": {
-    "@acme/ui": "^1.0.1",
+    "@acme/ui": "^1.0.2",
     "next": "12.1.6",
     "next-images": "^1.8.4",
     "next-transpile-modules": "^9.0.0",

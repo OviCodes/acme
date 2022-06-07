@@ -1,6 +1,6 @@
 {
   "name": "@acme/events-admin-e2e",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": true,
   "devDependencies": {
     "cypress": "^10.0.2"
