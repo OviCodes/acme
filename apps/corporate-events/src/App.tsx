@@ -1,27 +1,31 @@
-import { Button } from '@acme/ui';
-import React from 'react';
+import { Button, Heading } from '@acme/ui';
 
-import './App.css';
-import logo from './logo.svg';
+import styles from './App.module.css';
 
 function App() {
+  const events = [
+    { name: 'Team building', date: '07-15-2022' },
+    { name: 'Corporate marathon', date: '08-05-2022' },
+    { name: 'Fire drill', date: '12-01-2022', canceled: true },
+  ];
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <Button onClick={() => console.log('clicked...')}>Click me!</Button>
-      </header>
+    <div className={styles.container}>
+      <Heading>Corporate Events</Heading>
+      <div className={styles.button}>
+        <Button>Login</Button>
+      </div>
+      <div className={styles.wrapper}>
+        {events.map(({ name, date, canceled }) => (
+          <div key={name} className={styles.event}>
+            <p className={styles.title} style={{ textDecoration: canceled ? 'line-through' : '' }}>
+              {name}
+            </p>
+            <p>{date}</p>
+          </div>
+        ))}
+      </div>
+      <br />
+      <p>Copyright 2022 ACME</p>
     </div>
   );
 }
