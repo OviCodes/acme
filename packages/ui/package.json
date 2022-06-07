@@ -1,6 +1,6 @@
 {
   "name": "@acme/ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./dist/index.cjs.js",
   "module": "./dist/index.js",
   "types": "./dist/index.ts",
@@ -17,12 +17,12 @@
     "build-storybook": "build-storybook"
   },
   "devDependencies": {
-    "@acme/babel-preset-acme": "1.0.0",
-    "@acme/esbuild-config": "1.0.0",
-    "@acme/eslint-config-acme": "1.0.0",
-    "@acme/jest-preset": "1.0.0",
-    "@acme/prettier-config": "1.0.0",
-    "@acme/tsconfig": "1.0.0",
+    "@acme/babel-preset-acme": "^1.0.1",
+    "@acme/esbuild-config": "^1.0.1",
+    "@acme/eslint-config-acme": "^1.0.1",
+    "@acme/jest-preset": "^1.0.1",
+    "@acme/prettier-config": "^1.0.1",
+    "@acme/tsconfig": "^1.0.1",
     "@babel/core": "^7.18.2",
     "@storybook/addon-actions": "^6.5.7",
     "@storybook/addon-essentials": "^6.5.7",
@@ -56,6 +56,5 @@
   },
   "files": [
     "dist/**/*"
-  ],
-  "dependencies": {}
+  ]
 }
