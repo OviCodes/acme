@@ -18,6 +18,7 @@
     "test:staged": "turbo run test --filter=[HEAD^1]",
     "lint": "turbo run lint",
     "type-check": "turbo run type-check",
-    "type-check:staged": "turbo run type-check --filter=[HEAD^1]"
+    "type-check:staged": "turbo run type-check --filter=[HEAD^1]",
+    "release": "turbo run release && lerna publish"
   }
 }
