@@ -32,6 +32,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "test": "jest --coverage --color",
+    "lint": "eslint components pages --fix --color",
+    "type-check": "tsc --noEmit --pretty"
   }
 }

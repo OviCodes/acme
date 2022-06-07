@@ -9,7 +9,10 @@
     "dev": "yarn clean && node ./scripts/watch.js",
     "build": "yarn clean && node ./scripts/build.js && yarn ts-types",
     "clean": "yarn rimraf dist",
-    "ts-types": " tsc --emitDeclarationOnly --outDir dist",
+    "ts-types": "tsc --emitDeclarationOnly --outDir dist",
+    "test": "jest --coverage --color",
+    "lint": "eslint src --fix --color",
+    "type-check": "tsc --noEmit --pretty",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },

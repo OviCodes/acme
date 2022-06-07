@@ -26,10 +26,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "craco start",
+    "dev": "PORT=3001 craco start",
     "build": "craco build",
-    "test": "craco test",
-    "eject": "craco eject"
+    "eject": "craco eject",
+    "test": "jest --coverage --color",
+    "lint": "eslint src --fix --color",
+    "type-check": "tsc --noEmit --pretty"
   },
   "eslintConfig": {
     "extends": [

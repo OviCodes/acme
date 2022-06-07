@@ -7,5 +7,17 @@
   "workspaces": [
     "apps/*",
     "packages/**"
-  ]
+  ],
+  "devDependencies": {
+    "turbo": "^1.2.16"
+  },
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "test:staged": "turbo run test --filter=[HEAD^1]",
+    "lint": "turbo run lint",
+    "type-check": "turbo run type-check",
+    "type-check:staged": "turbo run type-check --filter=[HEAD^1]"
+  }
 }
